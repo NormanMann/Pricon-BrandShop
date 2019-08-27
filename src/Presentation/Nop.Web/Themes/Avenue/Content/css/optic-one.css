@@ -24,6 +24,10 @@ body .header-lower .nav-button .trigger:before {
 	color: #fff;
 }
 
+body p a {
+	font-weight: 500;
+	text-decoration: underline;
+}
 
 .mega-menu > li > a > span, .with-dropdown-in-grid > span {
 	font-weight: 500;
@@ -379,11 +383,15 @@ body .shops-item .show-directions {
 	color: #00B5B8;
 	background: url(../img/icon-location.png) no-repeat left center;
 }
-body .shops-item .tag-item,
-body .shop-page .tag-item {
+body .shops-item .tag-item {
 	color: #00B5B8;
-
 }
+
+body .shop-page .tag-item {
+	color: #18073a;
+	font-weight: 500;
+}
+
 body .shops-item .tag-item:before,
 body .shop-page .tag-item:before {
 	color: #18073a;
@@ -399,6 +407,7 @@ body .shops-item {
 	padding: 20px;
 	margin-bottom: 30px;
 }
+
 
 /** overwrite /Plugins/SevenSpikes.Nop.Plugins.SmartProductCollections/Themes/Avenue/Content/SmartProductCollections.css **/
 
