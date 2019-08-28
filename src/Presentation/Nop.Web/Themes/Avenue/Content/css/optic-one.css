@@ -94,6 +94,18 @@ body .topic-page .page-body {
 	padding: 2%;
 }
 
+body .footer-logo {
+	display: none;
+}
+
+body .footer-text .text {
+	margin-top: 0;
+}
+
+body .footer-payment-methods ul {
+	display: none;
+}
+
 /** ============= home page featured categories ========== **/
 
 
